@@ -16,3 +16,51 @@ Requiere el uso de herramientas ofensivas, programación, análisis y seguimient
 - Obtener Acceso
 - Mantener el Acceso
 - Limpiar Rastros
+
+* Conceptos
+** Ciberseguridad
+La seguridad informática es el proceso de establecer y observar un conjunto de estrategias, políticas, técnicas, reglas, guías, prácticas y procedimientos pendientes a prevenir, proteger y resguardar de daño, alteración, intervención o sustracción a los RECURSOS TECNOLÓGICOS de una persona u organización. Gestionando también el riesgo al generar en la mayor medida posible el correcto proceso de las actividades.
+
+** Vulnerabilidad
+En el contexto de la ciberseguridad, una vulnerabilidad se refiere a una debilidad o fallo en un sistema, aplicación, red o proceso que podría ser explotado por personas malintencionadas (como hackers) para comprometer la seguridad y obtener acceso no autorizado, robar información confidencial, causar daños o interrumpir el funcionamiento normal de los sistemas.
+
+** Hacker
+Un hacker es un experto en seguridad informática que se dedica a explorar sistemas y redes para identificar vulnerabilidades y fortalecer la seguridad. Los hackers pueden ser "sombrero blanco", que son éticos y trabajan para proteger sistemas, o "sombrero negro", que buscan explotar vulnerabilidades con fines maliciosos.
+
+** Ciberdelincuente
+un ciberdelincuente es alguien que utiliza sus habilidades técnicas para realizar actividades ilegales en línea. Esto puede incluir robo de datos, fraude financiero y otros delitos cibernéticos.
+
+** Lamer
+"Lamer" es un término utilizado en el lenguaje de la computación para describir a alguien novato o inexperto en temas de cómputo.  Los "Lamers" suelen carecer de conocimientos profundos y a menudo intentan impresionar a otros sin realmente comprender lo que hacen.
+
+** Script Kiddies
+Los "Script Kiddies" (también conocidos como "skiddies") son personas con un nivel muy bajo de habilidades técnicas en el ámbito de la informática y la seguridad cibernética, pero que intentan realizar ataques o acciones maliciosas utilizando herramientas y scripts preexistentes creados por otros, en lugar de desarrollar sus propias habilidades o herramientas.
+
+** Phreakers
+Los "phreakers" son individuos que se dedican a explorar y manipular sistemas de telecomunicaciones, especialmente sistemas telefónicos, para obtener acceso a servicios y funciones de manera gratuita o para llevar a cabo actividades ilegales. El término "phreaking" es una combinación de las palabras "phone" (teléfono) y "freak" (fanático o entusiasta), y se originó en la década de 1960 cuando las personas comenzaron a descubrir formas de manipular las redes telefónicas para realizar llamadas de larga distancia sin costo.
+
+** Ingeniería Social
+La ingeniería social es una técnica de manipulación psicológica utilizada por atacantes para engañar a las personas y obtener información confidencial, como contraseñas o datos financieros. Implica la manipulación de las emociones, la confianza y la persuasión para llevar a cabo acciones que normalmente no realizarían.
+
+** Ransomware
+El ransomware es un tipo de software malicioso que restringe el acceso a un sistema o a los datos que contiene y exige un pago (un "rescate") para eliminar esa restricción. Los atacantes cifran los archivos de la víctima y solicitan un pago a cambio de proporcionar la clave para descifrarlos.
+
+** Sexting
+El sexting es el acto de enviar o recibir mensajes, imágenes o videos de contenido sexualmente explícito a través de dispositivos electrónicos, como teléfonos móviles o computadoras. Puede ser realizado de manera consensuada entre adultos, pero también puede presentar riesgos si se comparte de manera inapropiada o sin consentimiento.
+
+** Botnet
+Un botnet es una red de dispositivos informáticos comprometidos y controlados por un atacante, también conocido como botmaster. Estos dispositivos, que pueden incluir computadoras, servidores, dispositivos IoT (Internet de las cosas) e incluso teléfonos móviles, se infectan con software malicioso (conocido como bot) que permite al atacante tomar el control de manera remota.
+
+El objetivo principal de un botnet es utilizar los dispositivos infectados para llevar a cabo diversas actividades maliciosas sin el conocimiento de sus propietarios legítimos.
+
+** Grooming
+El grooming se refiere a una serie de acciones y comportamientos en línea llevados a cabo por un adulto con la intención de establecer una relación emocional y de confianza con un niño o adolescente con el propósito final de abusar sexualmente de ellos. El grooming es un comportamiento altamente manipulador y peligroso que ocurre principalmente en entornos en línea, como redes sociales, plataformas de mensajería y juegos en línea.
+
+** Typosquatting
+El typosquatting, también conocido como URL hijacking, es una táctica en la que los ciberdelincuentes registran nombres de dominio que se asemejan mucho a los de sitios web legítimos, pero con pequeñas variaciones en la ortografía o en el dominio. Estos nombres de dominio engañosos se aprovechan de los errores de escritura comunes que los usuarios pueden cometer al escribir las direcciones web en sus navegadores.
+
+** Deepfakes
+Los deepfakes son un tipo de contenido digital manipulado que utiliza técnicas avanzadas de inteligencia artificial, como el aprendizaje profundo (deep learning), para crear videos, imágenes o audio falsificados de manera extremadamente realista. Estas manipulaciones pueden hacer que una persona parezca decir o hacer cosas que en realidad nunca ocurrieron.
+
+** OSINT
+Open Source INTelligence, o Inteligencia de Fuentes Abiertas se refiera a la recolección, análisis y toma de decisiones sobre datos de fuentes disponibles de forma pública. Esta metodología permite recolectar datos acerca de personas y grupos sin irrumpir en fuentes de información confidenciales o clandestinas.
