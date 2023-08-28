@@ -1,0 +1,18 @@
+* Penetration Testing
+
+El principio del pentesting (Penetration testing) es saber si una organización es segura al simular un ataque con los mismos métodos que los atacantes genuinos, con el objetivo de descubrir vulnerabilidades.
+
+En un ataque intencional a un sistema computacional el fin es encontrar vulnerabilidades, descubrir debilidades en un sistema, certificar que un sistema es seguro y ganar acceso al sistema explotando dichas vulnerabilidades.
+
+Se genera un reporte con vulnerabilidades encontradas y recomendaciones para atenderlas o mitigarlas.
+
+Se debe ignorar la percepción que la organización tenga sobre su seguridad y probar que tiene vulnerabilidades.
+
+Requiere el uso de herramientas ofensivas, programación, análisis y seguimiento de metodologías.
+
+* Fases del Hacking
+- Reconocimiento
+- Escaneo
+- Obtener Acceso
+- Mantener el Acceso
+- Limpiar Rastros
