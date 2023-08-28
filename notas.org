@@ -19,7 +19,12 @@ Requiere el uso de herramientas ofensivas, programación, análisis y seguimient
 
 * Conceptos
 ** Ciberseguridad
-La seguridad informática es el proceso de establecer y observar un conjunto de estrategias, políticas, técnicas, reglas, guías, prácticas y procedimientos pendientes a prevenir, proteger y resguardar de daño, alteración, intervención o sustracción a los RECURSOS TECNOLÓGICOS de una persona u organización. Gestionando también el riesgo al generar en la mayor medida posible el correcto proceso de las actividades.
+La seguridad informática es el área de estudio que se enfoca en establecer y observar un conjunto de estrategias, políticas, técnicas, reglas, guías, prácticas y procedimientos pendientes a prevenir, proteger y resguardar de daño, alteración, intervención o sustracción a los RECURSOS TECNOLÓGICOS de una persona u organización.
+
+*** Propiedades que busca preservar:
+- Confidencialidad
+- Integridad
+- Disponibilidad
 
 ** Vulnerabilidad
 En el contexto de la ciberseguridad, una vulnerabilidad se refiere a una debilidad o fallo en un sistema, aplicación, red o proceso que podría ser explotado por personas malintencionadas (como hackers) para comprometer la seguridad y obtener acceso no autorizado, robar información confidencial, causar daños o interrumpir el funcionamiento normal de los sistemas.
@@ -64,3 +69,31 @@ Los deepfakes son un tipo de contenido digital manipulado que utiliza técnicas 
 
 ** OSINT
 Open Source INTelligence, o Inteligencia de Fuentes Abiertas se refiera a la recolección, análisis y toma de decisiones sobre datos de fuentes disponibles de forma pública. Esta metodología permite recolectar datos acerca de personas y grupos sin irrumpir en fuentes de información confidenciales o clandestinas.
+
+** Auditoría de Seguridad
+Proceso que se centra en examinar el estado de seguridad de un conjunto de elementos pertenecientes a un sistema de información desde un punto de vista tecnológico.
+Recupera, recopila, agrupa y evalúa evidencias para garantizar la seguridad de los sistemas de información.
+
+*** Auditoría de Caja Negra
+Auditoría en la que el auditor recibe información mínima acerca del sistema a analizar.Toda la información debe ser obtenida de forma autónoma. Permite analizar sistemas aún si no hay sistemas internos de auditoría. Son más baratos, menos intrusivos y priorizan riesgos evidentes.
+
+*** Auditoría de Caja Blanca
+Auditoría en la que el auditor recibe todos los datos acerca del sistema a analizar. Estos pueden incluir esquemas de red, archivos de configuración, dumps, entre otros. En teoría son más rápidas y permiten un análisis más completo y detallado.
+
+** Consultoría
+Obtiene datos a través de entrevistas con los responsables de los sistemas. Es similar a la auditoría pero esta generalmente no obtiene datos de los propios sistemas.
+
+** Exploit
+Ataque que busca aprovechar una vulnerabilidad para comprometer un sistema.
+
+** Amenaza
+Posibilidad de que un atacante o suceso explote una vulnerabilidad para dañar un sistema informático.
+
+** Impacto
+Grado de afectación o daño provocado por la afectación de una vulnerabilidad.
+
+** Riesgo
+Potencial de que una amenaza dada explote las vulnerabilidades de un activo o grupo de activos y cause daño a una organización o sistema. Se mide en términos de combinación de la probabilidad y el impacto.
+
+** Control
+Salvaguarda o contramedida para reducir el impacto de una amenaza.
