@@ -100,7 +100,7 @@ Salvaguarda o contramedida para reducir el impacto de una amenaza.
 
 * Herramientas
 - nmap :: Identifica puertos abiertos en la IP objetivo.
-  * Comando de escaneo de puertos abiertos y OS: ~~sudo nmap -A -sS -p- [objetivo]~~
+  * Comando de escaneo de puertos abiertos y OS: ~sudo nmap -A -sS -p- [objetivo]~
 - netcat :: Escanea puertos, crea shells reversos, recupera banners, etc.
 - wireshark :: Escanea paquetes en la red local.
 - nikto :: Escanea servidores web para identificar vulnerabilidades.
