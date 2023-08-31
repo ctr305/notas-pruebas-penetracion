@@ -106,3 +106,4 @@ Salvaguarda o contramedida para reducir el impacto de una amenaza.
 - nikto :: Escanea servidores web para identificar vulnerabilidades.
 - ftp :: Transfiere archivos entre dos computadoras, puede permitir login anónimo.
 - ssh :: Protocolo para operar en otros dispositivos dentro de la red local de forma segura.
+- hydra :: Herramienta de descifrado de contraseñas.
