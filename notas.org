@@ -97,3 +97,11 @@ Potencial de que una amenaza dada explote las vulnerabilidades de un activo o gr
 
 ** Control
 Salvaguarda o contramedida para reducir el impacto de una amenaza.
+
+* Herramientas
+- nmap :: Identifica puertos abiertos en la IP objetivo.
+- netcat :: Escanea puertos, crea shells reversos, recupera banners, etc.
+- wireshark :: Escanea paquetes en la red local.
+- nikto :: Escanea servidores web para identificar vulnerabilidades.
+- ftp :: Transfiere archivos entre dos computadoras, puede permitir login anónimo.
+- ssh :: Protocolo para operar en otros dispositivos dentro de la red local de forma segura.
