@@ -98,12 +98,21 @@ Potencial de que una amenaza dada explote las vulnerabilidades de un activo o gr
 ** Control
 Salvaguarda o contramedida para reducir el impacto de una amenaza.
 
+** Test de Intrusión
+Busca atacar los puntos más débiles del perímetro de seguridad de la entidad a probar. Permite priorizar la corrección de las vulnerabilidades más graves. Requiere alcance y objetivos claramente definidos.
+
+** Análisis de Vulnerabilidades
+Es el proceso de identificar, cuantificar y priorizar las vulnerabilidades de un sistema. Suele realizarse por red a través de herramientas automatizadas. Requiere un alcance definido y un listado de los servicios y activos identificados.
+
+** Análisis de Red
+Evalúa el grado de seguridad de una red entera y su entorno en lugar de un solo sistema o grupo de sistemas. Requiere cubrir el mayor número de aspectos posibles de seguridad de un entorno.
+
 * Herramientas
 - nmap :: Identifica puertos abiertos en la IP objetivo.
   * Comando de escaneo de puertos abiertos y OS: ~sudo nmap -A -sS -p- [objetivo]~
 - netcat :: Escanea puertos, crea shells reversos, recupera banners, etc.
 - wireshark :: Escanea paquetes en la red local.
 - nikto :: Escanea servidores web para identificar vulnerabilidades.
-- ftp :: Transfiere archivos entre dos computadoras, puede permitir login anónimo.
+- ftp :: Transfiere archivos entre dos computadoras. Puede permitir login anónimo.
 - ssh :: Protocolo para operar en otros dispositivos dentro de la red local de forma segura.
 - hydra :: Herramienta de descifrado de contraseñas.
