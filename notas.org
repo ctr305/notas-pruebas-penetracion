@@ -107,6 +107,31 @@ Es el proceso de identificar, cuantificar y priorizar las vulnerabilidades de un
 ** Análisis de Red
 Evalúa el grado de seguridad de una red entera y su entorno en lugar de un solo sistema o grupo de sistemas. Requiere cubrir el mayor número de aspectos posibles de seguridad de un entorno.
 
+** Banner
+Información textual que describe un servicio específico en un dispositivo. ej.
+#+begin_src html
+HTTP/1.1 200 OK
+Server: MyWebServer/1.0
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to My Web Server</title>
+</head>
+<body>
+    <h1>Hello, world!</h1>
+    <p>This is a simple example of an HTTP banner.</p>
+</body>
+</html>
+#+end_src
+
+** Fingerprinting
+Interactuar con el objetivo para obtener información.
+
+** Banner Grabbing
+Técnica para descubrir datos de un dispositivo según sus banners.
+
 * Herramientas
 - nmap :: Identifica puertos abiertos en la IP objetivo.
   * Comando de escaneo de puertos abiertos y OS: ~sudo nmap -A -sS -p- [objetivo]~
@@ -116,3 +141,4 @@ Evalúa el grado de seguridad de una red entera y su entorno en lugar de un solo
 - ftp :: Transfiere archivos entre dos computadoras. Puede permitir login anónimo.
 - ssh :: Protocolo para operar en otros dispositivos dentro de la red local de forma segura.
 - hydra :: Herramienta de descifrado de contraseñas.
+- shodan.io :: Motor de búsqueda desarrollador por John Matherly (@achillean). Interroga los puertos y toma los resultados para indexarlos. Está diseñado para encontrar nodos específicos con contenido específico en sus banners.
