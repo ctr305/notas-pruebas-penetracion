@@ -85,6 +85,16 @@ Obtiene datos a través de entrevistas con los responsables de los sistemas. Es 
 
 ** Exploit
 Ataque que busca aprovechar una vulnerabilidad para comprometer un sistema.
+Ejemplos:
+- Buffer Overflow
+- Inyección de código
+- Error de Configuración
+
+** Payload
+Porción de malware que compromete la seguridad.
+
+** Shellcode
+Payload que permite acceder al shell de un sistema objetivo.
 
 ** Amenaza
 Posibilidad de que un atacante o suceso explote una vulnerabilidad para dañar un sistema informático.
@@ -98,6 +108,15 @@ Potencial de que una amenaza dada explote las vulnerabilidades de un activo o gr
 ** Control
 Salvaguarda o contramedida para reducir el impacto de una amenaza.
 
+** Vector de Entrega/Ataque
+Medio por le cual se entrega un payload.
+
+** Entrega Lateral
+Proceso de vulnerar otros equipos para poder aproximarse al objetivo.
+
+** Google Hacking
+Técnica que usa buscadores como Google para encontrar vulnerabilidades en el código y configuración de sitios web.
+
 ** Test de Intrusión
 Busca atacar los puntos más débiles del perímetro de seguridad de la entidad a probar. Permite priorizar la corrección de las vulnerabilidades más graves. Requiere alcance y objetivos claramente definidos.
 
@@ -106,6 +125,41 @@ Es el proceso de identificar, cuantificar y priorizar las vulnerabilidades de un
 
 ** Análisis de Red
 Evalúa el grado de seguridad de una red entera y su entorno en lugar de un solo sistema o grupo de sistemas. Requiere cubrir el mayor número de aspectos posibles de seguridad de un entorno.
+
+** Análisis de Arquitectura
+Se estudian todas las capas IT y del diseño de una infraestructura en relación a su influencia en la seguridad del conjunto.
+
+*** Elementos Clave
+- Elementos :: Componen la arquitectura.
+- Técnicos :: Técnicos, de Gestión y Operativos.
+- Riesgos :: Selección de aquellos más relevantes a los que se a enfrentar el entorno.
+
+** Análisis de Separación de Privilegios
+La separación de privilegios se usa para atenuar el daño que puede sufrir un sistema al limitar los privilegios de acceso y actuación de los usuarios a lo que estos necesitan.
+
+** Análisis de Configuración
+Analizar la seguridad de un sistema desde dentro del sistema mismo. Requiere acceso al sistema y su configuración.
+
+** Buenas Prácticas
+Conjunto coherente de acciones que han rendido buen servicio en un determinado contexto. La mayoría de fabricante proveen listas de buenas prácticas.
+
+** Securización (Hardening bastionado)
+Proceso que no solo incorpora buenas prácticas sino también medidas más radicales para volver a un sistema más resistente a ataques. Estas pueden incluir la eliminación de componentes no esenciales, configuración de parámetros que pueden reducir el rendimiento y el reemplazo de componentes.
+
+** Análisis de Cumplimiento
+Consiste en comprobar el nivel de adecuación de un sistema informático a nivel técnico a los requisitos de una norma o estándar.
+
+** Análisis de Código Fuente
+Proceso diseñado para analizar el código fuente o versión compilada de un programa para encontrar vulnerabilidades.
+
+** Análisis de Tráfico
+Proceso de interceptar y examinar los mensajes de red con el fin de deducir información de patrones en comunicación.
+
+** Análisis de Firewall
+Mide el grado de efectividad y eficiencia de un firewall para proteger una red.
+
+** Scanner de Vulnerabilidad
+Herramientas automatizadas para identificar fallos de seguridad que afectan a un sistema o aplicación.
 
 ** Banner
 Información textual que describe un servicio específico en un dispositivo. ej.
