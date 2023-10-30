@@ -29,6 +29,12 @@ La seguridad informática es el área de estudio que se enfoca en establecer y o
 ** Vulnerabilidad
 En el contexto de la ciberseguridad, una vulnerabilidad se refiere a una debilidad o fallo en un sistema, aplicación, red o proceso que podría ser explotado por personas malintencionadas (como hackers) para comprometer la seguridad y obtener acceso no autorizado, robar información confidencial, causar daños o interrumpir el funcionamiento normal de los sistemas.
 
+*** Locales
+Se requiere acceso al sistema o estar autenticado como un usuario.
+
+*** Remotas
+Se requiere de un servicio expuesto, para el cual se tiene acceso remoto.
+
 ** Hacker
 Un hacker es un experto en seguridad informática que se dedica a explorar sistemas y redes para identificar vulnerabilidades y fortalecer la seguridad. Los hackers pueden ser "sombrero blanco", que son éticos y trabajan para proteger sistemas, o "sombrero negro", que buscan explotar vulnerabilidades con fines maliciosos.
 
@@ -186,6 +192,89 @@ Interactuar con el objetivo para obtener información.
 ** Banner Grabbing
 Técnica para descubrir datos de un dispositivo según sus banners.
 
+** Modelado de Amenazas
+Usar la información encontrada en la etapa de descubrimiento de inteligencia para identificar vulnerabilidades existentes en el objetivo.
+
+** PTES
+Estándar de pruebas de penetración para negocios. Cubre desde la comunicación inicial, las razones para hacer el ejercicio, reunión de inteligencia, modelado de amenazas, busqueda de vulnerabilidades, explotación, post-explotación y expedición de informes.
+Este cubre las áreas de:
+- Red
+- Aplicaciones Web
+- Redes Inalámbricas
+- Entorno Físico
+- Ingeniería Social
+
+** OSSTMM 2.1
+El Manual de la Metodología Abierta de Comprobación de la Seguridad (Open Source Security Testing Methodology Manual) es uno de los etándares más completos y más comúnmente utlizados en auditorías de seguridad para revisar la seguridad de los sistemas desde internet.
+La versión 2.1 se centra en la parte técnica, mientras que la versión 3 se centra más en los procesos.
+Se compone de los siguientes niveles:
+- Seguridad de la información
+- Seguridad de los procesos
+- Seguridad de las tecnologías de Internet
+- Seguridad en las comunicaciones
+- Seguridad Inalámbrica
+- Seguridad Física
+
+** SP 800-115
+Technical Guide to Information Testing and Assesment. Este documento busca ayudar a las organizaciones a planificar y realizar pruebas y exámenes técnicos de seguridad de a información, analizar las los hallazgos y desarrollar estrategias de mitigación.
+Se compone de las siguientes partes:
+a) Vistazo general sobre evaluaciones de seguridad.
+b) Descripción detallada de las técnicas de análisis técnico.
+c) Técnicas para la identificación de objetivos y análisis de los mismos.
+d) Técnicas para validar la existencia de vulnerabilidades.
+e) Proceso para la planificación de evaluación de seguridad.
+f) Factores clave para la ejecución de evaluaciones de seguridad.
+g) Presentación de resultados de la evaluación.
+
+** ISSAF
+Information Systems Security Assesment Framework es un framework de la Open Information Systems Security Group que clasifica las distintas técnicas de auditoría de seguridad y detalla los aspectos concretos e evaluación de cada uno de estos dominios.
+Se compone de 2 partes:
+- Metodología genérica mas centrada en le proceso de gestión del proceso de auditoría y la gestión del riesgo.
+- Una metodología especifica y muy detallada para la realización de análisis técnico.
+Este estándar clasifica las pruebas técnicas en:
+1. Seguridad de red
+2. Seguridad de equipos
+3. Seguridad de aplicaciones
+4. Seguridad de bases de datos
+Y evalúa la seguridad con los siguientes modelos:
+1. Configuraciones erróneas
+2. Riesgos relacionados con las tecnologías
+3. Riegos derivados de las personas o procesos de negocio
+4. Fortalecimiento de procesos y las tecnologías
+5. Mejores prácticas y procedimientos para las iniciativas de comunidad del negocio.
+
+** OWISAM
+Open Wireless Security Assessment Methodology. Se refiere a una metodología de seguridad que define controles técnicos para realizar auditorias de la seguridad de redes inalámbricas.
+Consta de 7 partes:
+1. Planificación
+2. Recopilación de Información
+3. Identificación de dispositivos
+4. Ataques
+5. Acceso a la red
+6. Pruebas sobre normativa y directivas
+7. Generación de resultados
+
+** OSA
+Open Security Architecture es un framework que proporciona puntos de control para lograr el mayor grado de seguridad de acuerdo a las necesidades de la entidad.
+Estos puntos de control tienen equivalencia en la ISO 27001.
+Se compone de las siguientes partes:
+- Patrones de Seguridad de TI
+- Patrones de nivel de aplicación
+- Patrones de Infraestructura
+- Servicios de seguridad
+
+** OWASP
+Open Web Application Security Project es un proyecto de código abierto dedicado a determinar y combatir las causas que hacen que el software web sea inseguro.
+Proporciona documentación, herramientas, una guía de pruebas y una guía detallada sobre la seguridad de las aplicaciones web.
+Se compone de 2 partes principales:
+- Clasificación de amenazas web.
+- Guía de Pruebas para desarrollo y producción.
+
+** Enumeración de vulnerabilidades
+Después de recolectar información sobre el objetivo se buscan puntos de entrada o vulnerabilidades.
+Una forma de hacer esto es a través de escaners de vulnerabilidades, pero solo pueden descubrir vulnerabilidades conocidas.
+No todas las vulnerabilidades son explotables.
+
 * Herramientas
 - nmap :: Identifica puertos abiertos en la IP objetivo.
   * Comando de escaneo de puertos abiertos y OS: ~sudo nmap -A -sS -p- [objetivo]~
@@ -196,3 +285,5 @@ Técnica para descubrir datos de un dispositivo según sus banners.
 - ssh :: Protocolo para operar en otros dispositivos dentro de la red local de forma segura.
 - hydra :: Herramienta de descifrado de contraseñas.
 - shodan.io :: Motor de búsqueda desarrollador por John Matherly (@achillean). Interroga los puertos y toma los resultados para indexarlos. Está diseñado para encontrar nodos específicos con contenido específico en sus banners.
+- metasploit :: Herramienta para desarrollar y ejecutar exploits en contra de una maquina objetivo.
+  * Comando para inicializar interfaz CLI: ~msfconsole~
